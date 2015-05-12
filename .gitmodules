@@ -1,0 +1,4 @@
+[submodule "zlib_src"]
+	path = zlib_src
+	url = https://github.com/madler/zlib
+	branch = master
