@@ -117,7 +117,7 @@
 								'ASMINF',
 							],
 							'sources':[
-								'zlib_src/contrib/amd64/amd64-match.S',
+								#'zlib_src/contrib/amd64/amd64-match.S',
 								'zlib_src/contrib/gcc_gvmat64/gvmat64.S',
 							],
 						}],
