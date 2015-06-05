@@ -111,7 +111,7 @@
 								'zlib_src/contrib/inflate86/inffas86.c',
 							],
 						}],
-						['target_arch=="x64"', {
+						['target_arch=="x64" and library == "static_library"', {
 							'defines':[
 								'ASMV',
 								'ASMINF',
