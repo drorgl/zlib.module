@@ -1,7 +1,7 @@
 {
 	'variables':{
-		#'library' : 'static_library',
-		'library' : 'shared_library',
+		'library' : 'static_library',
+		#'library' : 'shared_library',
 	},
 
 	'target_defaults': {
