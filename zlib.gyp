@@ -139,6 +139,10 @@
 						'NO_UNDERLINE',
 					],
 					
+					'cflags':[
+						'-fPIC'
+					],
+					
 					'conditions':[
 						['library == "static_library" and target_arch in "x64"',{
 							'sources':[
