@@ -4,6 +4,7 @@
   "description": "zlib wrapper",
   "main": "include_dirs.js",
   "scripts": {
+	"preinstall" : "git submodule init && git submodule update",
     "test": "node-gyp configure build"
   },
   "repository": {
