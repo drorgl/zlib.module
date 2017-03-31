@@ -4,7 +4,7 @@
   "description": "zlib wrapper",
   "main": "include_dirs.js",
   "scripts": {
-    "test": "node-gyp configure -- -Dwin_delay_load_hook=false --no-duplicate-basename-check build"
+    "test": "node-gyp configure build"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "zlib",
     "c"
   ],
-  "gypfile": true,
+  "gypfile": false,
   "bugs": {
     "url": "https://github.com/drorgl/zlib.module/issues"
   },
