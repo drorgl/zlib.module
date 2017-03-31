@@ -1,0 +1,26 @@
+{
+  "name": "zlib.module",
+  "version": "0.0.1",
+  "description": "zlib wrapper",
+  "main": "include_dirs.js",
+  "scripts": {
+    "test": "node-gyp configure -- -Dwin_delay_load_hook=false --no-duplicate-basename-check build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drorgl/zlib.module.git"
+  },
+  "keywords": [
+    "zlib",
+    "c"
+  ],
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/drorgl/zlib.module/issues"
+  },
+  "homepage": "https://github.com/drorgl/zlib.module#readme.md",
+  "devDependencies": {},
+  "dependencies": {
+    "node-gyp": "drorgl/node-gyp"
+  }
+}
