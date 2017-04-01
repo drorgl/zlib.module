@@ -1,7 +1,6 @@
-/zlib_src/
 /build.vs2013/
 /build.linux32/
 /build.linux64/
 
-/node_modules
+/node_modules/
 /build
