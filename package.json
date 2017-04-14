@@ -1,0 +1,28 @@
+{
+  "name": "zlib.module",
+  "version": "1.2.8",
+  "description": "zlib wrapper",
+  "main": "include_dirs.js",
+  "scripts": {
+	  "preinstall" : "git submodule init && git submodule update || true",
+    "test": "node-gyp configure build",
+    "pack" : "nnbu-pack -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drorgl/zlib.module.git"
+  },
+  "keywords": [
+    "zlib",
+    "c"
+  ],
+  "gypfile": false,
+  "bugs": {
+    "url": "https://github.com/drorgl/zlib.module/issues"
+  },
+  "homepage": "https://github.com/drorgl/zlib.module#readme.md",
+  "devDependencies": {},
+  "dependencies": {
+    "node-gyp": "drorgl/node-gyp"
+  }
+}
