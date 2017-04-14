@@ -23,6 +23,7 @@
   "homepage": "https://github.com/drorgl/zlib.module#readme.md",
   "devDependencies": {},
   "dependencies": {
-    "node-gyp": "drorgl/node-gyp"
+    "node-gyp": "drorgl/node-gyp",
+    "node-native-build-utilities": "drorgl/node-native-build-utilities"
   }
 }
